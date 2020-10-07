@@ -1,8 +1,9 @@
 #### What is printed from this code?
-vector&lt;int&gt; v(22);
+```
+vector<int>; v(22);
 bool b = (v[6]);
 printf ("%d", !b);
-
+```
 - [ ] FALSE
 - [ ] This code has an error.
 - [ ] 0
