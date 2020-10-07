@@ -103,13 +103,13 @@ std::cout&lt;&lt;nums[0]&lt;&lt;nums[1]&lt;&lt;nums[2];
 
 #### You want to have several lines of code that print out some variables for debugging purposes, but you do not want those lines to make it to the final application, for efficiency reasons. Which choice achieves the desired behavior producing the shortest possible code length, regardless of the level of optimization used?
 
-- [ ] // set the following to false for the final application
+- [ ] ```// set the following to false for the final application
 bool debugging = true;
 
 // copy and customize this for every debugging line
 if(debugging){
  cout&lt;&lt;"Var1 = "&lt;&lt;var1&lt;&lt;endl;
-}
+}```
 - [ ] // copy and customize this for every debugging line
  cerr&lt;&lt;"Var1 = "&lt;&lt;var1&lt;&lt;endl;
 - [ ] #define DEBUGGING(x)  #include x 
@@ -119,13 +119,13 @@ if(debugging){
 DEBUGGING(
  cout&lt;&lt;"Var1 = "&lt;&lt;var1&lt;&lt;endl;
 )
-- [ ] // comment the following line for the final application
+- [ ] ```// comment the following line for the final application
 #define DEBUGGING
 
 // copy and customize this for every debugging line
 #ifdef DEBUGGING
  cout&lt;&lt;"Var1 = "&lt;&lt;var1&lt;&lt;endl;
-#endif
+#endif```
 
 #### Which choice is the correct declaration for a class named Dog, derived from the Animal class?
 ```
