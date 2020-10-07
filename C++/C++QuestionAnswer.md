@@ -3,11 +3,10 @@ vector&lt;int&gt; v(22);
 bool b = (v[6]);
 printf ("%d", !b);
 
-Double-click the file
-FALSE
-This code has an error.
-0
-1
+- [ ] FALSE
+- [ ] This code has an error.
+- [ ] 0
+- [ ] 1
 
 #### What is a class template?
 
