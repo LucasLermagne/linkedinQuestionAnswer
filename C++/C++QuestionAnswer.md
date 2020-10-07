@@ -122,13 +122,13 @@ if(debugging){
 DEBUGGING(
  cout&lt;&lt;"Var1 = "&lt;&lt;var1&lt;&lt;endl;
 )
-- [ ] ```// comment the following line for the final application
+- [ ] ``` // comment the following line for the final application
 #define DEBUGGING
 
 // copy and customize this for every debugging line
 #ifdef DEBUGGING
  cout&lt;&lt;"Var1 = "&lt;&lt;var1&lt;&lt;endl;
-#endif```
+#endif ```
 
 #### Which choice is the correct declaration for a class named Dog, derived from the Animal class?
 ```
