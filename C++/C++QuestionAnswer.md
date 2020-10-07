@@ -113,12 +113,12 @@ if(debugging){
  cout&lt;&lt;"Var1 = "&lt;&lt;var1&lt;&lt;endl;
 } 
 ```
-- [ ] 
+- [ ] b
 ``` 
  // copy and customize this for every debugging line
  cerr&lt;&lt;"Var1 = "&lt;&lt;var1&lt;&lt;endl;
  ``` 
-- [ ] a
+- [ ] c
 ``` 
  #define DEBUGGING(x)  #include x 
 
@@ -128,7 +128,7 @@ DEBUGGING(
  cout&lt;&lt;"Var1 = "&lt;&lt;var1&lt;&lt;endl;
 )
 ``` 
-- [ ] 
+- [ ] d
  ``` 
  // comment the following line for the final application
 #define DEBUGGING
@@ -146,9 +146,9 @@ class Animal{
 };
 ```
 
-- [ ] ```class Dog : public Animal{
+- [ ] class Dog : public Animal{
  //...
-};```
+};
 - [ ] class Dog :: public Animal{
  //...
 };
