@@ -1,4 +1,4 @@
-#### What is printed from this code?
+What is printed from this code?
 vector&lt;int&gt; v(22);
 bool b = (v[6]);
 printf ("%d", !b);
